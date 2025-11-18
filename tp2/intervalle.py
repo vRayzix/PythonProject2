@@ -7,6 +7,6 @@ appartient_I = (
 	((x == -10 or x > -10) and (x == -2 or x < -2))
 )
 if appartient_I:
-	print("x appartient à I")
+	print(f"x appartient à I")
 else:
-	print("x n'appartient pas à I")
+	print(f"x n'appartient pas à I")

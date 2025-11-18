@@ -1,13 +1,13 @@
-a=input("Entrez la premiere  valeur : ")
-b=input("Entrez la deuxieme  valeur : ")
-c=input("Entrez la troisieme valeur : ")
+a = input("Entrez la première valeur : ")
+b = input("Entrez la deuxième valeur : ")
+c = input("Entrez la troisième valeur : ")
 
-print("Les valeurs entrees sont : a = " + a + ", b = " + b + " et c = " + c)
-print("Permutation: a ==> b, b ==> c, c ==> a")
+print(f"Les valeurs entrées sont : a = {a}, b = {b} et c = {c}")
+print("Permutation : a ==> b, b ==> c, c ==> a")
 
-tmp = a
+temp = a
 a = c
 c = b
-b = tmp
+b = temp
 
-print("Les valeurs permutees sont : a = " + a + ", b = " + b + " et c = " + c)
+print("Les valeurs permutées sont : a = " + a + ", b = " + b + " et c = " + c)
