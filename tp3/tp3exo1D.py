@@ -7,4 +7,4 @@ while somme + N <= X:
     somme += N
     N += 1
 
-print("Le plus grand N est :", N - 1)
+print("Le  plus grand N est :", N - 1)
